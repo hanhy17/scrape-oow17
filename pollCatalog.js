@@ -53,7 +53,7 @@ var delayedGetSessionData = function (ctr, type, firstDigit) {
 
 // loop over SUN, CON, TUT, GEN, BOF, HOL, SIG for session type
 // loop over 1..9 for session id
-var sessionTypes = ['SUN', 'CON', 'TUT', 'GEN', 'BOF', 'HOL', 'SIG'];
+var sessionTypes = ['SUN', 'CON', 'TUT', 'GEN', 'BOF', 'HOL', 'SIG' , 'BSN' , 'BQS' , 'ESS' , 'FLP' , 'HOM' , 'MYC' , 'THT' , 'CON6' , 'CON7' , 'SUN7' ];
 
 function pollSessions() {
     var ctr = 0;
